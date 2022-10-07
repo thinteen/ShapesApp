@@ -1,0 +1,36 @@
+.workSpace {
+    width: 80%;
+    height: 100vh;
+    background-color: #EFEFEF;
+    position: relative;
+
+    
+}
+
+.triangle {
+    position: absolute;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 120px solid #f95959;
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle {
+    position: absolute;
+    width: 300px;
+    height: 120px;
+}
+
+.selectedRectangle {
+    border: 4px dashed #2F80ED;
+    cursor: move;
+}
+
+.selectedTriangle {
+    position: absolute;
+    height: 116px;
+    width: 300px;
+    border: 4px dashed #2F80ED;
+    cursor: move;
+}
